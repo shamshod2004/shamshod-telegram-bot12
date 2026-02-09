@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import CommandStart
 import asyncio
 
-TOKEN = "7066615315:AAHbujC1108F9ecDUwF5hfJSqh9yR2U4NOA"
+TOKEN = "8429983629:AAFyk9p5fS4M4G8i5HGdDqbeiRNBCzaoN_g"
 CHANNELS = ["@Tarjima_kinolar_uzb_tilda_z"]  # Majburiy obuna kanallari
 ADMINS = [6000119173]
 bot = Bot(token=TOKEN)
