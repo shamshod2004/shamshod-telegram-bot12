@@ -2136,8 +2136,7 @@ async def send_video(message: types.Message):
         await message.answer_video(file_id, caption="""
         ⌨️ KOD: #84
        bot; @UrtakKino_bot
-        kanal; @Tarjima_kinolar_uzb_tilda_z""")
-                                                        
+        kanal; @Tarjima_kinolar_uzb_tilda_z""")                                                   
     else:
         await message.answer('telegram kanalga obuna boling')
         markup = InlineKeyboardMarkup(
@@ -2146,8 +2145,6 @@ async def send_video(message: types.Message):
             ] + [[InlineKeyboardButton(text="✅ Tekshirish", callback_data="check_subs")]]
         )
         await message.answer("Botdan foydalanish uchun quyidagi kanallarga obuna bo‘ling:", reply_markup=markup)
-    
-
 async def main():
     print('bot ishladi....')
     await dp.start_polling(bot)
